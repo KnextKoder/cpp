@@ -1,5 +1,6 @@
 # include <iostream>
 using std::cout;
+using std::cin;
 
 
 int main (){
@@ -7,7 +8,7 @@ int main (){
     // Even or Odd checker using ternary operator
     int number;
     cout << "Enter an integer: ";
-    std::cin >> number;
+    cin >> number;
 
     number % 2 == 0 ? cout << number << " is even.\n" : cout << number << " is odd.\n";
 
