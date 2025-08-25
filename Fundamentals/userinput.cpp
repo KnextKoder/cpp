@@ -8,7 +8,7 @@ int main(){
     int age;
 
     std::cout << "What is your name? \n";
-    std::getline(std::cin >> std::ws, name); // std::getline for strings with spaces
+    std::getline(std::cin >> std::ws, name); // std::getline for strings with spaces std::ws to deal with whitespaces
     
     std::cout << "What is your age? \n";
     std::cin >> age;
